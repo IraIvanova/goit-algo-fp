@@ -46,5 +46,5 @@ def build_pythagoras_tree(recursion_depth):
 
 
 if __name__ == '__main__':
-    depth = 7
-    build_pythagoras_tree(depth)
+    depth = input("Enter recursion depth: ")
+    build_pythagoras_tree(int(depth))

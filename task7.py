@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def monte_carlo_simulation(num_experiments):
     sum_counter = [0] * 13
-    print(sum_counter)
+    
     for _ in range(num_experiments):
         throw1 = random.randint(1, 6)
         throw2 = random.randint(1, 6)
